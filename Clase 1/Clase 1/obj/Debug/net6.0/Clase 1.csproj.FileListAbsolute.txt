@@ -1,0 +1,15 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.csproj.AssemblyReference.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\Clase 1.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\Clase 1.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\Clase 1.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\Clase 1.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\ref\Clase 1.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\bin\Debug\net6.0\Clase 1.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\ref\Clase 1.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Camino_de_Cordero\Back\Clase 1\Clase 1\obj\Debug\net6.0\Clase 1.genruntimeconfig.cache

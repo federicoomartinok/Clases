@@ -1,0 +1,15 @@
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\bin\Debug\net6.0\Clase 2.exe
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\bin\Debug\net6.0\Clase 2.deps.json
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\bin\Debug\net6.0\Clase 2.runtimeconfig.json
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\bin\Debug\net6.0\Clase 2.dll
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\bin\Debug\net6.0\Clase 2.pdb
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.csproj.AssemblyReference.cache
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.GeneratedMSBuildEditorConfig.editorconfig
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.AssemblyInfoInputs.cache
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.AssemblyInfo.cs
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.csproj.CoreCompileInputs.cache
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.dll
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\refint\Clase 2.dll
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.pdb
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\Clase 2.genruntimeconfig.cache
+E:\Visual Studio\Repos C#\Clase 2\Clase 2\obj\Debug\net6.0\ref\Clase 2.dll
