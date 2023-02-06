@@ -1,0 +1,15 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\Clase 3 pt2.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\Clase 3 pt2.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\Clase 3 pt2.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\Clase 3 pt2.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\ref\Clase 3 pt2.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\bin\Debug\net6.0\Clase 3 pt2.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\ref\Clase 3 pt2.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.genruntimeconfig.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 3 pt2\Clase 3 pt2\obj\Debug\net6.0\Clase 3 pt2.csproj.AssemblyReference.cache
