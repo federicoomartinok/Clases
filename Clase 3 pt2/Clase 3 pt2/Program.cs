@@ -143,9 +143,10 @@ DET DETERGENTE 250
 HACER UN MENU CON ESO Y CUANDO PONGAN FIN DIGA EL MONTO A ABONAR*/
 
 
-int desodorante = 200;
-int jabonPolvo = 300;
-int detergente = 250;
+const int desodorante = 200;
+const int jabonPolvo = 300;
+const int detergente = 250;
+
 int cantidad;
 int contadorDesodorante = 0;
 int contadorJp = 0;
@@ -164,26 +165,34 @@ do
     {
         case "DES":
             Console.WriteLine("Seleccione la cantidad de DESODORANTES: ");
-            cantidad = int.Parse(Console.ReadLine());
+            cantidad = PedirEntero();
             contadorDesodorante+=cantidad;
+            Console.Clear();
             break;
         case "JP":
             Console.WriteLine("Seleccione la cantidad de JABONES EN POLVO: ");
-            cantidad = int.Parse(Console.ReadLine());
-            contadorJp+=cantidad;
+            cantidad = PedirEntero();
+            contadorJp +=cantidad;
+            Console.Clear();
             break;
         case "DET":
             Console.WriteLine("Seleccione la cantidad de DETERGENTES: ");
-            cantidad = int.Parse(Console.ReadLine());
-            contadorDetergente+=cantidad;
+            cantidad = PedirEntero();
+            contadorDetergente +=cantidad;
+            Console.Clear();
             break;
         case "FIN":
-            suma = sumaTotal();
+            suma = SumaTotal(contadorDesodorante,contadorDetergente,contadorJp);
             Console.WriteLine("El monto a abonar es {0} si desea confirmar la compra precione CONF", suma);
             break;
         case "CONF":
+            Console.Clear();
             Console.WriteLine("~~~GRACIAS POR USAR NUESTRA TIENDA~~~");
+            Console.WriteLine("Se está procesando su pedido.....");
             salir = true;
+            break;
+         default:
+            Console.WriteLine("ERROR!!!, Reingrese el codigo: ");
             break;
     }
 
@@ -199,12 +208,20 @@ void menu()
     Console.WriteLine("Ingrese CONF para confirmar su compra");
 }
 
-double sumaTotal()
+double SumaTotal(int contadorDes, int contadorDet, int contadorJp)
 {
     double total;
-    total = (contadorDesodorante * 200 + contadorDetergente * 250 + contadorJp * 300);
+    total = (contadorDes * desodorante) + (contadorDet * detergente) + (contadorJp * jabonPolvo);
 
     return total;
+}
+
+int PedirEntero()
+{
+    int numero;
+    numero = Convert.ToInt32(Console.ReadLine());
+
+    return numero;
 }
 
 
