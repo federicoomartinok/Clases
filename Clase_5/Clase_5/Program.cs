@@ -4,30 +4,71 @@
     {
         static void Main( string[] args)
         {
-            static int generateId()
-            {
-                int id = 1;   //This resets the value to 1 every time you enter.
-                return id += 1;
-            }
-
-            Producto prod = new Producto();
+      
             Producto producto = new Producto();
-            producto._codigo = generateId();
 
-            Console.WriteLine("El codigo es: " + producto._codigo);
+            Console.WriteLine(producto.Categoria);
+
+            producto.Categoria = "Cervezas";
+
+            Console.WriteLine(producto.Categoria);
+
             
         }
     }
     
     public class Producto
     {
-        public int _codigo;
-        public string _descripion;
-        public string _categoria;
-        public double _precioDeCompra;
-        public double _precioDeVenta;
+        private int _codigo;
+        public int Codigo
+        {
+            get
+            {
+                return this._codigo;
+            }
+            set
+            {
+                this._codigo = value;
+            }
+        }
+        private string _descripcion;
+        private string Descripion
+        {
+            get
+            {
+                return this._descripcion;
+            }
+            set
+            {
+                this._descripcion = value;
+            }
+        }
 
-        public Producto() ///constructor comun
+        private string _categoria;
+
+        public string Categoria
+        {
+            get
+            {
+                if (!String.IsNullOrEmpty(this._categoria))
+                {
+                    return this._categoria;
+                }
+                else
+                {
+                    return "No tiene categoria";
+                }                
+            }
+            set
+            {
+                this._categoria = value;
+            }
+        }
+
+        private double _precioDeCompra;
+        private double _precioDeVenta;
+
+        /*public Producto() ///constructor comun
         {
             _codigo = 0;
             _descripion = String.Empty;
@@ -44,6 +85,17 @@
             this._precioDeCompra = precioDeCompra;
             this._precioDeVenta = precioDeVenta;
         }
+
+        public int obetenerId()
+        {
+            int id = 1;
+            id += 1;
+            _codigo = id;
+
+            return _codigo;
+        }*/
+
+ 
     }
 
    
