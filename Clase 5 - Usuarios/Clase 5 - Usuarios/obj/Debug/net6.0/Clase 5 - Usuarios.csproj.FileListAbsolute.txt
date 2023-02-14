@@ -1,0 +1,15 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\Clase 5 - Usuarios.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\Clase 5 - Usuarios.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\Clase 5 - Usuarios.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\Clase 5 - Usuarios.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\ref\Clase 5 - Usuarios.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\bin\Debug\net6.0\Clase 5 - Usuarios.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.csproj.AssemblyReference.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\ref\Clase 5 - Usuarios.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 5 - Usuarios\Clase 5 - Usuarios\obj\Debug\net6.0\Clase 5 - Usuarios.genruntimeconfig.cache

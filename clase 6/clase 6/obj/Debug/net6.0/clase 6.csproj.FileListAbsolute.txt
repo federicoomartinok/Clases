@@ -1,0 +1,15 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\clase 6.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\clase 6.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\clase 6.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\clase 6.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\ref\clase 6.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\bin\Debug\net6.0\clase 6.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.csproj.AssemblyReference.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\ref\clase 6.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\clase 6\clase 6\obj\Debug\net6.0\clase 6.genruntimeconfig.cache

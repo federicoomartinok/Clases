@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "62758ef3-6967-42e7-9000-24b6ea192732": {
+      "ProjectGuid": "62758ef3-6967-42e7-9000-24b6ea192732",
+      "DisplayName": "Vista",
+      "ColorIndex": 0
+    },
+    "3d2b76a3-86b3-4556-87e7-e0c3397ea1ce": {
+      "ProjectGuid": "3d2b76a3-86b3-4556-87e7-e0c3397ea1ce",
+      "DisplayName": "Biblioteca",
+      "ColorIndex": 1
+    }
+  },
+  "NextColorIndex": 2
+}
