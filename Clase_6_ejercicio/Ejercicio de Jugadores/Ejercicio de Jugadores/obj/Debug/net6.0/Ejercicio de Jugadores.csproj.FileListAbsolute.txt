@@ -1,0 +1,15 @@
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\bin\Debug\net6.0\Ejercicio de Jugadores.exe
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\bin\Debug\net6.0\Ejercicio de Jugadores.deps.json
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\bin\Debug\net6.0\Ejercicio de Jugadores.runtimeconfig.json
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\bin\Debug\net6.0\Ejercicio de Jugadores.dll
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\bin\Debug\net6.0\Ejercicio de Jugadores.pdb
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.csproj.AssemblyReference.cache
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.GeneratedMSBuildEditorConfig.editorconfig
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.AssemblyInfoInputs.cache
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.AssemblyInfo.cs
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.csproj.CoreCompileInputs.cache
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.dll
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\refint\Ejercicio de Jugadores.dll
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.pdb
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\Ejercicio de Jugadores.genruntimeconfig.cache
+E:\Federico\Clases de C#\Clases\Clase_6_ejercicio\Ejercicio de Jugadores\Ejercicio de Jugadores\obj\Debug\net6.0\ref\Ejercicio de Jugadores.dll
