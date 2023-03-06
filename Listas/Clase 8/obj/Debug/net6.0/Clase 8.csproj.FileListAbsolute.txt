@@ -1,0 +1,15 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\Clase 8.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\Clase 8.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\Clase 8.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\Clase 8.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\ref\Clase 8.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\bin\Debug\net6.0\Clase 8.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.csproj.AssemblyReference.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\ref\Clase 8.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Listas\Clase 8\obj\Debug\net6.0\Clase 8.genruntimeconfig.cache
