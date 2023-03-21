@@ -1,0 +1,22 @@
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\Clase 12 - Conexion a la DB.exe
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\Clase 12 - Conexion a la DB.deps.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\Clase 12 - Conexion a la DB.runtimeconfig.json
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\Clase 12 - Conexion a la DB.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\ref\Clase 12 - Conexion a la DB.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\Clase 12 - Conexion a la DB.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\System.Data.SqlClient.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\runtimes\win-arm64\native\sni.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\runtimes\win-x64\native\sni.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\runtimes\win-x86\native\sni.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\bin\Debug\net6.0\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.csproj.AssemblyReference.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.AssemblyInfoInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.AssemblyInfo.cs
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.csproj.CoreCompileInputs.cache
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.csproj.CopyComplete
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\ref\Clase 12 - Conexion a la DB.dll
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.pdb
+C:\Users\fedmartin\Desktop\Camino de Cordero Federico Martin\Clases\Clase 12 - Conexion a la DB\Clase 12 - Conexion a la DB\obj\Debug\net6.0\Clase 12 - Conexion a la DB.genruntimeconfig.cache
