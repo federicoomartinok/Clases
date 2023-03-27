@@ -8,9 +8,24 @@ namespace EjemploDeClase
     {
         static void Main(string[] args)
         {
-            ProductoHandler productoHandler = new ProductoHandler();
+           ProductoHandler productoHandler = new ProductoHandler();
+           productoHandler.GetProductos();
+            
+            /// para llamar a get usuario tengo que crear una lista de usuarios para y almacenarlos
+            UsuarioHandler usuarioHandler = new UsuarioHandler();
+            
+            ///usuarioHandler.UpdateContraseña();
 
-            productoHandler.GetProductos();
+            usuarioHandler.Insert();
+            List<Usuario> usuarios = usuarioHandler.GetUsuarios();
+
+            /// un for que recorre los usuarios y me los devuelve por consola
+            foreach (Usuario usuario in usuarios)
+            {
+                Console.WriteLine($"Id: {usuario.Id}, Nombre de usuario: {usuario.NombreUsuario}, Contraseña: {usuario.Contraseña}");
+            }
+
+
 
             /*
             List<string> descripciones = productoHandler.GetTodasLasDescripcionesConReader();
@@ -22,3 +37,5 @@ namespace EjemploDeClase
         }
     }
 }
+
+

@@ -5,9 +5,8 @@ using System.Data.SqlClient;
 namespace EjemploDeClase
 {
 
-    public class ProductoHandler
+    public class ProductoHandler : DbHandler
     {
-        public const string ConnectionString = "Server = 10.108.30.15; Database=[SistemaGestion];UID=testuser;PWD=qwertu";
 
         public List<Producto> GetProductos()
         {
@@ -86,8 +85,30 @@ namespace EjemploDeClase
 
             return descripciones;
 
-
         }
+
+        public void BorrarUnProducto(int idProducto)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
+            {
+                string queryDelete = "DELETE FROM Producto WHERE Id = @idProducto";
+
+                SqlParameter sqlParameter = new SqlParameter("idProducto", SqlDbType.BigInt);
+                sqlParameter.Value = idProducto;
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(queryDelete, sqlConnection))
+                {
+                    sqlCommand.Parameters.Add(sqlParameter);
+                    sqlCommand.ExecuteScalar();
+                }
+
+                sqlConnection.Close();
+            }
+        }
+
+
+
 
     }
 
