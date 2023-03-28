@@ -107,8 +107,59 @@ namespace EjemploDeClase
             }
         }
 
+        public void AgregarProducto(Producto producto)
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
+            {
+                string queryInsert = "INSERT FROM Producto (Descripciones, Costo, PrecioVenta, Stock, IdUsuario)" +
+                    "VALUES (@Descripciones, @Costo, @PrecioVenta, @Stock, @IdUsuario)";
+
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(queryInsert, sqlConnection))
+                {
+
+                    sqlCommand.Parameters.Add(new SqlParameter("Descripciones", SqlDbType.VarChar) { Value = producto.Descripciones });
+                    sqlCommand.Parameters.Add(new SqlParameter("Costo", SqlDbType.Int) { Value = producto.Costo });
+                    sqlCommand.Parameters.Add(new SqlParameter("PrecioVenta", SqlDbType.Int) { Value = producto.PrecioDeVenta });
+                    sqlCommand.Parameters.Add(new SqlParameter("Stock", SqlDbType.Int) { Value = producto.Stock });
+                    sqlCommand.Parameters.Add(new SqlParameter("IdUsuario", SqlDbType.Int) { Value = producto.IdUsuario });
+
+                    sqlCommand.ExecuteNonQuery();// Aca viene el Insert, segun la IA sirve mas el executeNonQuery ya que no devuelve nada
+                }
+                sqlConnection.Close();
+            }
+        }
 
 
+
+        public void ActualizarProducto(Producto producto)/// nose si funciona esto
+        {
+            using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
+            {
+                string queryUpdate = "UPDATE Producto " +
+                    "SET Descripciones = @descripciones" +
+                    "precioCompra = @precioCompra" +
+                    "precioVenta = @precioVenta" +
+                    "categoria = @categoria" +
+                    "WHERE Id = @Id ";
+
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(queryUpdate, sqlConnection))
+                {
+
+                    sqlCommand.Parameters.Add(new SqlParameter("Id", SqlDbType.Int) { Value = producto.Id });
+                    sqlCommand.Parameters.Add(new SqlParameter("descripciones", SqlDbType.VarChar) { Value = producto.Descripciones });
+                    sqlCommand.Parameters.Add(new SqlParameter("precioCompra", SqlDbType.BigInt) { Value = producto.PrecioDeCompra });
+                    sqlCommand.Parameters.Add(new SqlParameter("precioVenta", SqlDbType.BigInt) { Value = producto.PrecioDeVenta });
+                    sqlCommand.Parameters.Add(new SqlParameter("categoria", SqlDbType.VarChar) { Value = producto.Categoria });
+
+                    sqlCommand.ExecuteNonQuery();// Aca viene el Insert, segun la IA sirve mas el executeNonQuery ya que no devuelve nada
+                }
+                sqlConnection.Close();
+            }
+        }
 
     }
 

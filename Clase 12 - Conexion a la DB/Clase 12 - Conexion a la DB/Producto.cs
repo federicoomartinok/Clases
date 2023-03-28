@@ -13,12 +13,18 @@ namespace EjemploDeClase
         public int Stock { get; set; }
         public int IdUsuario { get; set; }
         public int Costo { get; set; }
-        public string Descripcion { get; set; }
+        public string Descripciones { get; set; }
         public double PrecioDeCompra { get; set; }
         public double PrecioDeVenta { get; set; }
         public string Categoria { get; set; }
 
     }
+
+    
+    }
+
+
+
 
 
 }

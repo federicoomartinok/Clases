@@ -45,7 +45,7 @@ namespace EjemploDeClase
             return usuarios;
         }
 
-        public void Delete()
+        public void Delete(Usuario usuario) //Este delete recibe un usuario como parametro
         {
             try
             {
@@ -54,12 +54,11 @@ namespace EjemploDeClase
                 {
                     string queryDelete = "DELETE FROM Usuario WHERE Id = @idUsuario";
 
-                    double id = 1;
                     SqlParameter parametro = new SqlParameter();
 
                     parametro.ParameterName = "idUsuario";
                     parametro.SqlDbType = System.Data.SqlDbType.BigInt;
-                    parametro.Value = id;
+                    parametro.Value = usuario.Id;
 
                     using (SqlCommand sqlCommand = new SqlCommand(queryDelete,sqlConnection))
                     {
@@ -77,7 +76,7 @@ namespace EjemploDeClase
             }           
             
         }
-
+    
 
         public void UpdateContraseña()
         {
@@ -123,7 +122,7 @@ namespace EjemploDeClase
 
         }
         public void Insert()
-           ///Aca es la forma correcta de crear un metodo de insert con SQL para que no te rompa todo
+           ///Aca es la forma correcta de crear un metodo de insert con SQL para que no te rompa todo y lo agrega en la DB
         {
             try
             {
@@ -165,11 +164,6 @@ namespace EjemploDeClase
             {
                 Console.WriteLine(ex.Message);
             }
-
-
-
-
-
 
             /*try
             {
