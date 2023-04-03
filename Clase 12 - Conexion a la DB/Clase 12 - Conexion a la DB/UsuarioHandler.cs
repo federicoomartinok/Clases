@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.SqlClient;
+using System.Data;
 
 namespace EjemploDeClase
 {
@@ -78,7 +79,7 @@ namespace EjemploDeClase
         }
     
 
-        public void UpdateContraseña()
+        public void UpdateContraseña(Usuario usuario)
         {
             try
             {
@@ -88,19 +89,18 @@ namespace EjemploDeClase
                     string queryUpdate = "UPDATE Usuario SET Contraseña = @nuevaContraseña WHERE Id = @idUsuario;";
 
                     double id = 1;
-                    string nuevaContraseña = "ContraseñaNueva123";
 
                     SqlParameter parametroNuevaContraseña = new SqlParameter();
 
                     parametroNuevaContraseña.ParameterName = "nuevaContraseña";
                     parametroNuevaContraseña.SqlDbType = System.Data.SqlDbType.VarChar;
-                    parametroNuevaContraseña.Value = nuevaContraseña;
+                    parametroNuevaContraseña.Value = usuario.Contraseña;
 
                     SqlParameter parametroUsuarioId = new SqlParameter();
 
                     parametroUsuarioId.ParameterName = "idUsuario";
                     parametroUsuarioId.SqlDbType = System.Data.SqlDbType.BigInt;
-                    parametroUsuarioId.Value = id;
+                    parametroUsuarioId.Value = usuario.Id;
 
                     using (SqlCommand sqlCommand = new SqlCommand(queryUpdate,sqlConnection))
                     {
@@ -121,43 +121,40 @@ namespace EjemploDeClase
             }
 
         }
-        public void Insert()
+        public void Insert(Usuario usuario)
            ///Aca es la forma correcta de crear un metodo de insert con SQL para que no te rompa todo y lo agrega en la DB
         {
             try
             {
                 using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
                 {
-                    Console.Write("Ingrese el nombre: ");
-                    string nombre = Console.ReadLine();
-
-                    Console.Write("Ingrese el apellido: ");
-                    string apellido = Console.ReadLine();
-
-                    Console.Write("Ingrese el nombre de usuario: ");
-                    string nombreUsuario = Console.ReadLine();
-
-                    Console.Write("Ingrese la contraseña: ");
-                    string contraseña = Console.ReadLine();
-
-                    Console.Write("Ingrese el correo electrónico: ");
-                    string correo = Console.ReadLine();
-
+                    
                     string queryInsert = "INSERT INTO Usuario (Nombre, Apellido, NombreUsuario, Contraseña, Mail) " +
-                        "VALUES (@Nombre, @Apellido, @NombreUsuario, @Contraseña, @Mail)";
+                        "VALUES ('Ramiro', 'Rodriguez','RamRodriguez','Rrodriguez123', 'Rrodriguez@gmail.com')";
+
+
+                                      
+                    SqlParameter nombreParameter = new SqlParameter("Nombre", SqlDbType.VarChar) { Value = usuario.Nombre };
+                    SqlParameter apellidoParameter = new SqlParameter("Apellido", SqlDbType.VarChar) { Value = usuario.Apellido };
+                    SqlParameter nombreUsuarioParameter = new SqlParameter("NombreUsuario", SqlDbType.VarChar) { Value = usuario.NombreUsuario };
+                    SqlParameter contraseñaParameter = new SqlParameter("Contraseña", SqlDbType.VarChar) { Value = usuario.Contraseña };
+                    SqlParameter mailParameter = new SqlParameter("Mail", SqlDbType.VarChar) { Value = usuario.Mail };
 
                     sqlConnection.Open();
 
+
                     using (SqlCommand sqlCommand = new SqlCommand(queryInsert, sqlConnection))
                     {
-                        sqlCommand.Parameters.AddWithValue("@Nombre", nombre);
-                        sqlCommand.Parameters.AddWithValue("@Apellido", apellido);
-                        sqlCommand.Parameters.AddWithValue("@NombreUsuario", nombreUsuario);
-                        sqlCommand.Parameters.AddWithValue("@Contraseña", contraseña);
-                        sqlCommand.Parameters.AddWithValue("@Mail", correo);
+                        sqlCommand.Parameters.Add(nombreParameter);
+                        sqlCommand.Parameters.Add(apellidoParameter);
+                        sqlCommand.Parameters.Add(nombreUsuarioParameter);
+                        sqlCommand.Parameters.Add(contraseñaParameter);
+                        sqlCommand.Parameters.Add(mailParameter);
 
                         sqlCommand.ExecuteNonQuery();
                     }
+
+                    sqlConnection.Close();
                 }
             }
             catch (Exception ex)
