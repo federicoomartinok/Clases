@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using MiPrimerApi.Model;
+using MiPrimerApi.Repository;
 
 namespace MiPrimerApi.Controllers
 {
@@ -11,7 +12,7 @@ namespace MiPrimerApi.Controllers
         [HttpGet(Name = "GetUsuarios")]
         public List <Usuario> GetUsuarios()
         {
-            return new List<Usuario>();
+            return UsuarioHandler.GetUsuarios();
         }
     }
 }
