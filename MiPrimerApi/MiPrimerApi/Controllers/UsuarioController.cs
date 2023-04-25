@@ -17,9 +17,9 @@ namespace MiPrimerApi.Controllers
         }
 
         [HttpDelete]
-        public void EliminarUsuario([FromBody] int id)
+        public bool EliminarUsuario([FromBody] int id)
         {
-
+            return UsuarioHandler.EliminarUsuario(id);
         }
         [HttpPut]
         public void ModificarUsuario([FromBody] PutUsuario usuario)
@@ -27,8 +27,16 @@ namespace MiPrimerApi.Controllers
 
         }
         [HttpPost]
-        public void CrearUsuario([FromBody] PostUsuario usuario)
+        public bool CrearUsuario([FromBody] PostUsuario usuario)
         {
+            return UsuarioHandler.CrearUsuario(new Usuario
+            {
+                Apellido = usuario.Apellido,
+                Contraseña = usuario.Contraseña,
+                Mail = usuario.Mail,
+                Nombre = usuario.Nombre,
+                NombreUsuario = usuario.NombreUsuario,
+            });
 
         }
 
