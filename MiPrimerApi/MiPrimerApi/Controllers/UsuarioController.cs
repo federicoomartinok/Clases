@@ -29,14 +29,25 @@ namespace MiPrimerApi.Controllers
         [HttpPost]
         public bool CrearUsuario([FromBody] PostUsuario usuario)
         {
-            return UsuarioHandler.CrearUsuario(new Usuario
+            try
             {
-                Apellido = usuario.Apellido,
-                Contraseña = usuario.Contraseña,
-                Mail = usuario.Mail,
-                Nombre = usuario.Nombre,
-                NombreUsuario = usuario.NombreUsuario,
-            });
+                return UsuarioHandler.CrearUsuario(new Usuario
+                {
+                    Apellido = usuario.Apellido,
+                    Contraseña = usuario.Contraseña,
+                    Mail = usuario.Mail,
+                    Nombre = usuario.Nombre,
+                    NombreUsuario = usuario.NombreUsuario
+                });
+
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.Message);
+                return false;
+            }
+
+            
 
         }
 

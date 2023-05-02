@@ -79,16 +79,16 @@ namespace MiPrimerApi.Repository
 
             using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
             {
-                string queryInsert = "INSERT INTO [SistemaGestion].[dbo].[Usuario]" +
+                string queryInsert = "INSERT INTO Usuario" +
                     "(Nombre, Apellido, NombreUsuario, Contraseña, Mail) VALUES " +
                     "(@nombreParameter, @apellidoParameter, @nombreUsuarioParameter, @contraseñaParameter, @mailParameter);";
 
 
-                SqlParameter nombreParameter = new SqlParameter("Nombre", System.Data.SqlDbType.VarChar) {Value = usuario.Nombre };
-                SqlParameter apellidoParameter = new SqlParameter("Apellido", System.Data.SqlDbType.VarChar) { Value = usuario.Apellido };
-                SqlParameter nombreUsuarioParameter = new SqlParameter("NombreUsuario", System.Data.SqlDbType.VarChar) { Value = usuario.NombreUsuario};
-                SqlParameter contraseñaParameter = new SqlParameter("Contraseña", System.Data.SqlDbType.VarChar) { Value = usuario.Contraseña };
-                SqlParameter mailParameter = new SqlParameter("Mail", System.Data.SqlDbType.VarChar) { Value = usuario.Mail };
+                SqlParameter nombreParameter = new SqlParameter("nombreParameter", System.Data.SqlDbType.VarChar) {Value = usuario.Nombre };
+                SqlParameter apellidoParameter = new SqlParameter("apellidoParameter", System.Data.SqlDbType.VarChar) { Value = usuario.Apellido };
+                SqlParameter nombreUsuarioParameter = new SqlParameter("nombreUsuarioParameter", System.Data.SqlDbType.VarChar) { Value = usuario.NombreUsuario};
+                SqlParameter contraseñaParameter = new SqlParameter("contraseñaParameter", System.Data.SqlDbType.VarChar) { Value = usuario.Contraseña };
+                SqlParameter mailParameter = new SqlParameter("mailParameter", System.Data.SqlDbType.VarChar) { Value = usuario.Mail };
 
 
                 sqlConnection.Open();
