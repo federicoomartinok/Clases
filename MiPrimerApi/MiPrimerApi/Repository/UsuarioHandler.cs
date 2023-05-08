@@ -113,6 +113,42 @@ namespace MiPrimerApi.Repository
             }
 
             return resultado;
-        }        
+        }
+
+
+        public static bool ModificarNombreDeUsuario(Usuario usuario)
+        {
+            bool resultado = false;
+
+            using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
+            {
+                string queryInsert = "INSERT INTO Usuario" +
+                    "SET Nombre = @nombre" +
+                    "WHERE Id = @id";
+
+
+                SqlParameter nombreParameter = new SqlParameter("nombre", System.Data.SqlDbType.VarChar) { Value = usuario.Nombre };
+                SqlParameter idParameter = new SqlParameter("id", System.Data.SqlDbType.BigInt) { Value = usuario.Id };                         
+                
+                sqlConnection.Open();
+
+                using (SqlCommand sqlCommand = new SqlCommand(queryInsert, sqlConnection))
+                {
+                    sqlCommand.Parameters.Add(nombreParameter);
+                    sqlCommand.Parameters.Add(idParameter);
+
+                    int numeberOfRows = sqlCommand.ExecuteNonQuery(); // se ejecuta la sentencia sql
+
+                    if (numeberOfRows > 0)
+                    {
+                        resultado = true;
+                    }
+                }
+
+                sqlConnection.Close();
+            }
+
+            return resultado;
+        }
     }
 }

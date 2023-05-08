@@ -22,8 +22,13 @@ namespace MiPrimerApi.Controllers
             return UsuarioHandler.EliminarUsuario(id);
         }
         [HttpPut]
-        public void ModificarUsuario([FromBody] PutUsuario usuario)
+        public bool ModificarUsuario([FromBody] PutUsuario usuario)
         {
+            return UsuarioHandler.ModificarNombreDeUsuario(new Usuario
+            {
+                Id = usuario.Id,
+                Nombre = usuario.Nombre,
+            });
 
         }
         [HttpPost]
@@ -46,8 +51,6 @@ namespace MiPrimerApi.Controllers
                 Console.WriteLine(ex.Message);
                 return false;
             }
-
-            
 
         }
 
