@@ -122,13 +122,13 @@ namespace MiPrimerApi.Repository
 
             using (SqlConnection sqlConnection = new SqlConnection(ConnectionString))
             {
-                string queryInsert = "INSERT INTO Usuario" +
-                    "SET Nombre = @nombre" +
+                string queryInsert = "UPDATE Usuario " +
+                    "SET Nombre = @nombre " +
                     "WHERE Id = @id";
 
 
-                SqlParameter nombreParameter = new SqlParameter("nombre", System.Data.SqlDbType.VarChar) { Value = usuario.Nombre };
-                SqlParameter idParameter = new SqlParameter("id", System.Data.SqlDbType.BigInt) { Value = usuario.Id };                         
+                SqlParameter nombreParameter = new SqlParameter("@nombre", System.Data.SqlDbType.VarChar) { Value = usuario.Nombre };
+                SqlParameter idParameter = new SqlParameter("@id", System.Data.SqlDbType.BigInt) { Value = usuario.Id };                         
                 
                 sqlConnection.Open();
 

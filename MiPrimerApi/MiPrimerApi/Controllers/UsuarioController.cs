@@ -10,18 +10,18 @@ namespace MiPrimerApi.Controllers
     [Route("[controller]")]
     public class UsuarioController : ControllerBase
     {
-        [HttpGet(Name = "GetUsuarios")]
+        [HttpGet("Get Usuarios")]
         public List<Usuario> GetUsuarios()
         {
             return UsuarioHandler.GetUsuarios();
         }
 
-        [HttpDelete]
+        [HttpDelete ("BorrarUsuario")]
         public bool EliminarUsuario([FromBody] int id)
         {
             return UsuarioHandler.EliminarUsuario(id);
         }
-        [HttpPut]
+        [HttpPut ("ModificarNombreUsuario")]
         public bool ModificarUsuario([FromBody] PutUsuario usuario)
         {
             return UsuarioHandler.ModificarNombreDeUsuario(new Usuario
@@ -31,7 +31,7 @@ namespace MiPrimerApi.Controllers
             });
 
         }
-        [HttpPost]
+        [HttpPost ("CrearUsuario")]
         public bool CrearUsuario([FromBody] PostUsuario usuario)
         {
             try
