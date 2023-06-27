@@ -1,0 +1,16 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "20aaae0f-19dd-4fc5-9d77-c6093f43eaf6": {
+      "ProjectGuid": "20aaae0f-19dd-4fc5-9d77-c6093f43eaf6",
+      "DisplayName": "PruebaPDF",
+      "ColorIndex": 0
+    },
+    "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3": {
+      "ProjectGuid": "a2fe74e1-b743-11d0-ae1a-00a0c90fffc3",
+      "DisplayName": "Archivos varios",
+      "ColorIndex": -1
+    }
+  },
+  "NextColorIndex": 1
+}
